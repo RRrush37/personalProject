@@ -1,0 +1,165 @@
+body {
+  background-color: #45322a;
+  overflow: hidden;
+}
+
+footer {
+  display: none;
+}
+/*----------actor---------*/
+
+.actor {
+  width: 100vw;
+  /* height: 200vh; */
+  text-align: center;
+  position: relative;
+  left: 0;
+}
+.buttonArea {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.actorBTN {
+  transform: rotate(15deg);
+  position: relative;
+  margin: 30px 6px 0;
+  height: 120vh;
+  border-radius: 10px;
+  border: 0;
+  flex-grow: 1;
+  transition: 1s;
+  font-size: 2.5vw;
+  font-weight: bold;
+  line-height: 50px;
+  overflow: hidden;
+  z-index: 0;
+  background-color: #e1d0c4;
+  color: #3c1002;
+  top: -16vh;
+  width: 14vw;
+}
+.actorBTN:nth-child(5n + 1) {
+  background-color: #fff7c3;
+  background-color: #fffcd3;
+}
+.actorBTN:nth-child(5n + 2) {
+  background-color: #e9ffc3;
+  background-color: #ecffd3;
+}
+.actorBTN:nth-child(5n + 3) {
+  background-color: #cbffc3;
+  background-color: #d6ffd3;
+}
+.actorBTN:nth-child(5n + 4) {
+  background-color: #c3fff7;
+  background-color: #d3ffe6;
+}
+.actorBTN:nth-child(5n) {
+  background-color: #c3e9ff;
+  background-color: #d3fffc;
+}
+
+.actorBTN span {
+  display: block;
+  transform: rotate(-15deg);
+}
+
+.btnDisappear {
+  height: 0;
+}
+
+.divDisappear {
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; */
+  height: 0;
+}
+
+.actorBTN:hover {
+  background-color: #c0d2d6;
+  color: #0c5663;
+  cursor: pointer;
+  /* transform: translate(-10px, -10px); */
+  /* box-shadow: 10px 10px 5px black; */
+}
+
+.backToBTN {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  background-color: rgb(241, 176, 55);
+  z-index: 10;
+}
+/*----------ok------------*/
+.actorShow {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.actorShow img {
+  width: 40%;
+  opacity: 0.6;
+  transition: 1.5s;
+  position: absolute;
+  top: 0;
+  left: -60%;
+}
+
+.GinoDiv img,
+.bigDiv img {
+  left: 160%;
+}
+
+.actorShow iframe {
+  transition: 1.5s;
+}
+
+.okDiv p,
+.GinoDiv p,
+.bigDiv p {
+  transition: 1.5s 0.3s;
+  font-family: Verdana;
+  font-size: 40px;
+}
+
+.okInfo,
+.GinoInfo,
+.bigInfo {
+  position: relative;
+  left: -100%;
+  color: white;
+}
+
+.actorText {
+  position: absolute;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.manSlideIn img {
+  left: 60%;
+}
+
+.manSlideIn .GinoImg {
+  left: 5%;
+}
+
+.manSlideIn frame {
+  left: 0;
+}
+
+.manSlideIn p {
+  left: 0;
+}

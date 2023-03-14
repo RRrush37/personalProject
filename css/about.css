@@ -1,0 +1,35 @@
+.main {
+  margin-top: 10vh;
+  display: flex;
+  width: 80%;
+  margin: 5vh auto;
+}
+
+.main li {
+  flex-basis: 0;
+  flex-grow: 1;
+  margin: 0 1vw;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  align-content: space-between;
+}
+
+.text ol {
+  flex-grow: 1;
+}
+iframe {
+  margin: 0 auto;
+  background-attachment: fixed;
+}
+
+.firstClass {
+  text-align: center;
+  font-size: 30px;
+}
+
+.footer {
+  opacity: 1;
+}

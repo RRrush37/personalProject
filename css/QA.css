@@ -1,0 +1,54 @@
+.QA {
+  min-height: 80vh;
+  margin-top: 10vh;
+}
+
+.QA ul {
+  width: 80vw;
+  margin: 20px auto;
+  padding: 10px;
+  border: 5px solid #b6a396;
+  border-radius: 20px;
+}
+
+.triangle {
+  border: solid;
+  border-width: 12px 8px;
+  width: 0;
+  height: 0;
+  float: right;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 10px;
+}
+
+.QA ul li {
+  color: #0c5663;
+}
+.QA ul li:nth-child(2) {
+  padding: 10px;
+}
+
+.QA ul li:nth-child(3) {
+  /* padding: 10px; */
+  border-top: 1px solid #b6a396;
+}
+.QA ul .triangle {
+  border-color: #0c5663 transparent transparent transparent;
+}
+
+.rotate {
+  /* transform: rotate(180deg); */
+  transform: scaleY(-1);
+}
+
+.answer {
+  transition: 1s;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.autoHeight {
+  max-height: 50px;
+  padding: 20px;
+}
