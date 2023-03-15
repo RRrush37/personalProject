@@ -1,6 +1,6 @@
 $(function () {
-  $("#nav").load("../nav.html");
-  $(".footer").load("../footer.html");
+  $(".nav").load("../personalProject/nav.html");
+  $(".footer").load("../personalProject/footer.html");
   let showActor = "";
   document.getElementById("okBTN").addEventListener("click", (e) => {
     closeButton();
