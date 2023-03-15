@@ -1,5 +1,5 @@
 $(function () {
-  $(".nav").load("../personalProject/nav.html");
+  $(".nav").load("../nav.html");
   $(".footer").load("../footer.html");
   let showActor = "";
   document.getElementById("okBTN").addEventListener("click", (e) => {
