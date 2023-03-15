@@ -1,0 +1,34 @@
+.rentList {
+  display: flex;
+  flex-direction: column;
+}
+
+.rentList li {
+  width: 50%;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin: 20px 0;
+  text-align: center;
+}
+.rentList li:nth-child(odd) {
+  padding-right: 10vw;
+}
+.rentList li:nth-child(even) {
+  padding-left: 10vw;
+}
+
+.rentList li img {
+  align-self: center;
+  width: 0;
+  margin: 0 50px;
+  border-radius: 50%;
+}
+
+.rentList li img,
+.rentList li p {
+  flex-basis: 0;
+  flex-grow: 1;
+}

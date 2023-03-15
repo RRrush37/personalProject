@@ -1,14 +1,21 @@
 .QA {
   min-height: 80vh;
-  margin-top: 10vh;
+  margin-top: 6vh;
 }
 
 .QA ul {
   width: 80vw;
   margin: 20px auto;
-  padding: 10px;
+  padding: 0 10px;
   border: 5px solid #b6a396;
   border-radius: 20px;
+}
+
+h1 {
+  color: #0c5663;
+  font-weight: bold;
+  font-size: 45px;
+  text-shadow: 1px 1px 2px #7cafb7;
 }
 
 .triangle {
@@ -26,20 +33,26 @@
   color: #0c5663;
 }
 .QA ul li:nth-child(2) {
-  padding: 10px;
+  padding: 20px;
 }
 
 .QA ul li:nth-child(3) {
   /* padding: 10px; */
+  margin: 0 20px;
   border-top: 1px solid #b6a396;
+  color: #1faacc;
 }
-.QA ul .triangle {
+.triangle {
   border-color: #0c5663 transparent transparent transparent;
+  margin: 24px 10px 0 10px;
+  position: relative;
+  top: 0;
 }
 
 .rotate {
   /* transform: rotate(180deg); */
   transform: scaleY(-1);
+  top: 40px;
 }
 
 .answer {
@@ -50,5 +63,5 @@
 
 .autoHeight {
   max-height: 50px;
-  padding: 20px;
+  padding: 20px 0;
 }

@@ -3,6 +3,7 @@
   display: flex;
   width: 80%;
   margin: 5vh auto;
+  text-align: center;
 }
 
 .main li {
@@ -20,6 +21,17 @@
 .text ol {
   flex-grow: 1;
 }
+
+h2 {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 iframe {
   margin: 0 auto;
   background-attachment: fixed;

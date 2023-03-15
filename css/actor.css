@@ -96,9 +96,25 @@ footer {
   height: 50px;
   position: fixed;
   top: 50px;
-  left: 0;
-  background-color: rgb(241, 176, 55);
+  left: 20px;
   z-index: 10;
+}
+
+.backToBTN:hover {
+  cursor: pointer;
+  animation: switch 0.5s linear infinite alternate;
+}
+@keyframes switch {
+  0% {
+    left: 20px;
+  }
+  100% {
+    left: 10px;
+  }
+}
+.backToBTN img {
+  transform: rotate(-90deg);
+  width: 100%;
 }
 /*----------ok------------*/
 .actorShow {

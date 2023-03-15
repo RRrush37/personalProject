@@ -12,8 +12,10 @@ function submitform() {
     dataObj[field.name] = field.value;
   });
   alert(`
-  name：${dataObj["name"]}
+  姓名：${dataObj["name"]}
   email：${dataObj["email"]}
-  gender：${dataObj["gender"]}
+  性別：${dataObj["gender"]}
+  您的意見：${dataObj["feedback"]}
+  已收到您的回饋！近期煩請留意信箱是否有我們的回信，感謝您！
   `);
 }

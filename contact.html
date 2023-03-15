@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/sytle.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/contact.js"></script>
     <title>Document</title>
@@ -24,19 +25,40 @@
         </ul>
       </div>
     </div>
+    <div class="contactTitle">
+      <h1>聯絡我們</h1>
+    </div>
     <div class="contact">
-      <form action="" id="form">
-        <p>姓名</p>
-        <input id="name" name="name" type="textArea" />
-        <p>email</p>
-        <input id="email" name="email" type="textArea" />
-        <input type="textArea" />
-        <input type="textArea" />
-        <p>性別</p>
-        <input type="radio" name="gender" id="gender" value="male" />男
-        <input type="radio" name="gender" id="gender" value="female" />女
-        <input value="Submit" type="" onclick="submitform()" />
-      </form>
+      <div class="flexItem">
+        <form action="" id="form">
+          <p>姓名：</p>
+          <input id="name" name="name" type="text" />
+          <p>email：</p>
+          <input id="email" name="email" type="text" />
+          <p>性別：</p>
+          <input type="radio" name="gender" id="gender" value="male" />
+          <span>男</span>
+          <input type="radio" name="gender" id="gender" value="female" />
+          <span>女</span>
+          <p>您的回饋：</p>
+          <textarea
+            type="textarea"
+            name="feedback"
+            id="feedback"
+            rows="5"
+            cols="33"
+          ></textarea>
+
+          <input value="Submit" type="textarea" onclick="submitform()" />
+        </form>
+      </div>
+      <div class="flexItem">
+        <img src="img/raiseHand.jpg" alt="" />
+
+        <!-- <img src="img/baby1.jpg" alt="" />
+        <img src="img/baby2.jpg" alt="" />
+        <img src="img/baby3.jpg" alt="" /> -->
+      </div>
     </div>
     <footer class="footer">
       <div class="text">

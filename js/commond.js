@@ -1,6 +1,6 @@
 $(document).ready(function () {
   setTimeout(() => {
-    $(window).scrollTop(0);
+    $(window).scroll(0, 0);
   }, 100);
   setTimeout(() => {
     // document.addEventListener("scroll", function (e) {

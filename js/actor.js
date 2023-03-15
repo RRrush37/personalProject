@@ -1,5 +1,5 @@
 $(function () {
-  $(".nav").load("../nav.html");
+  $("#nav").load("../nav.html");
   $(".footer").load("../footer.html");
   let showActor = "";
   document.getElementById("okBTN").addEventListener("click", (e) => {
@@ -49,8 +49,10 @@ $(function () {
   });
 
   function backToBTN() {
-    $(".actorBTN").removeClass("btnDisappear");
     $(".buttonArea").removeClass("divDisappear");
+    setTimeout(() => {
+      $(".actorBTN").removeClass("btnDisappear");
+    }, 800);
     if (showActor) {
       $(`.${showActor}`).toggleClass("manSlideIn");
       showActor = "";

@@ -1,0 +1,90 @@
+body {
+  background: repeating-conic-gradient(
+    from 0deg at 64% -4%,
+    #7cafb7 0 25deg,
+    #e1d0c4 33deg 51deg,
+    #7cafb7 56deg 25deg
+  );
+}
+
+/*---------contact----------*/
+
+.contactTitle {
+  text-align: center;
+  font-size: 30px;
+  margin: 10vh;
+}
+.contact {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.contact form {
+}
+
+.contact input,
+textarea {
+  display: block;
+  margin: 0.5vw 1vh 1.5vw;
+  width: 13vw;
+  height: 4vh;
+}
+textarea {
+  width: 20vw;
+  height: 20vh;
+  font-size: 1.2vw;
+}
+
+.contact p,
+.contact span {
+  font-size: 1.2vw;
+}
+
+.contact input[type="radio"] {
+  display: inline;
+  font-size: 1.2vw;
+  width: 1vw;
+  height: 1vw;
+}
+
+input[type="textarea"] {
+  font-size: 1.2vw;
+}
+
+input:last-child {
+  text-align: center;
+  width: 7vw;
+  border-radius: 1vw;
+  background-color: #ffecdc;
+}
+
+.contact img {
+  /* position: absolute;
+  width: 14vw; */
+  width: 40vw;
+  left: 3vw;
+  position: relative;
+}
+
+.flexItem {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+/* img:first-child {
+  z-index: 1;
+  left: 67vw;
+  top: 44vh;
+}
+
+img:nth-child(2) {
+  left: 44vw;
+  top: 30vh;
+  z-index: 1;
+}
+
+img:last-child {
+  top: 13vh;
+  left: 56vw;
+} */
