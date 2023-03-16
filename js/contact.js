@@ -16,6 +16,7 @@ function submitform() {
   email：${dataObj["email"]}
   性別：${dataObj["gender"]}
   您的意見：${dataObj["feedback"]}
-  已收到您的回饋！近期煩請留意信箱是否有我們的回信，感謝您！
+
+  已收到您的回饋！近期煩請留意我們的回信，感謝您！
   `);
 }

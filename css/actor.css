@@ -98,6 +98,12 @@ footer {
   top: 50px;
   left: 20px;
   z-index: 10;
+  opacity: 0;
+  transition: 1s;
+}
+
+.backToBTNAppear {
+  opacity: 1;
 }
 
 .backToBTN:hover {

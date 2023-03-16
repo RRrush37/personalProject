@@ -1,6 +1,4 @@
 $(function () {
-  $(".nav").load("../personalProject/nav.html");
-  $(".footer").load("../personalProject/footer.html");
   let showActor = "";
   document.getElementById("okBTN").addEventListener("click", (e) => {
     closeButton();
@@ -57,10 +55,12 @@ $(function () {
       $(`.${showActor}`).toggleClass("manSlideIn");
       showActor = "";
     }
+    $(".backToBTN").removeClass("backToBTNAppear");
   }
 });
 
 function closeButton() {
   $(".actorBTN").addClass("btnDisappear");
   $(".buttonArea").addClass("divDisappear");
+  $(".backToBTN").addClass("backToBTNAppear");
 }

@@ -1,34 +1,91 @@
+.rentMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  /* transform: translate(50%, 50%); */
+  border: 2px solid #b6a396;
+  top: 40vh;
+  left: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 1s;
+}
+.rentMenu li {
+  text-align: center;
+}
+
+.rentMenu li:not(last-child) {
+  padding: 10px;
+  position: relative;
+  border-bottom: 1px solid #b6a396;
+}
+
+.rentMenu li:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+
 .rentList {
   display: flex;
   flex-direction: column;
 }
 
-.rentList li {
-  width: 50%;
+.rentItem {
+  width: 55%;
   display: flex;
   align-self: center;
   align-items: center;
   flex-basis: 0;
   flex-grow: 1;
-  margin: 20px 0;
+  margin: 20px 0 20px 100px;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+subtitle {
+  display: block;
   text-align: center;
-}
-.rentList li:nth-child(odd) {
-  padding-right: 10vw;
-}
-.rentList li:nth-child(even) {
-  padding-left: 10vw;
+  color: #0c5663;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 .rentList li img {
-  align-self: center;
-  width: 0;
-  margin: 0 50px;
-  border-radius: 50%;
+  width: 220px;
+}
+.rentList li:last-child {
+  margin-bottom: 100px;
+}
+.rentList li p {
+  flex-grow: 1;
+  margin: 0 30px;
+  height: 100%;
+  position: relative;
 }
 
-.rentList li img,
-.rentList li p {
-  flex-basis: 0;
-  flex-grow: 1;
+.active {
+}
+
+.reserve {
+  display: block;
+  width: 70px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e5f5fc;
+  text-align: center;
+  color: #977964;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.5s;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+}
+
+.reserve:hover {
+  background-color: #0c5663;
+  color: white;
 }

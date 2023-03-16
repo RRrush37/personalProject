@@ -7,7 +7,7 @@
 }
 
 .main li {
-  flex-basis: 0;
+  /* flex-basis: 0; */
   flex-grow: 1;
   margin: 0 1vw;
   flex-direction: column;
@@ -20,6 +20,13 @@
 
 .text ol {
   flex-grow: 1;
+}
+
+h1 {
+  font-size: 36px;
+  color: #0c5663;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #7cafb7;
 }
 
 h2 {

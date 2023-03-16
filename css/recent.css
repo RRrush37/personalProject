@@ -1,0 +1,80 @@
+#titleImg {
+  display: block;
+  margin: 30px auto;
+  width: 800px;
+}
+
+.recent {
+  width: 1000px;
+  margin: 0 auto 50px;
+  position: relative;
+}
+
+.newsList {
+  display: flex;
+  border-bottom: 2px solid #b6a396;
+  position: relative;
+}
+
+.whiteArea {
+  /*白底區塊*/
+  position: absolute;
+  width: 120px;
+  height: 100%;
+  left: 0;
+  background-color: #fff;
+  transition: 1s;
+}
+
+.newsClass {
+  /*不同新聞類別的按鈕區塊*/
+  transition: 1s;
+  z-index: 1;
+  flex-basis: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+.newsClass:hover {
+  cursor: pointer;
+}
+
+.news {
+  padding: 7px;
+  width: 99%;
+}
+
+.news:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.newsContent {
+  transition: 1s;
+}
+
+.newsContent img {
+  margin-right: 10px;
+  padding: 2px;
+}
+a {
+  color: black;
+}
+
+.newsContent span {
+  padding: 2px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.activity,
+.allAnnounce {
+  display: none;
+}
+
+date {
+  float: right;
+  padding: 2px;
+}

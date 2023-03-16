@@ -55,8 +55,10 @@ input[type="textarea"] {
 input:last-child {
   text-align: center;
   width: 7vw;
+  color: white;
   border-radius: 1vw;
-  background-color: #ffecdc;
+  border: 0;
+  background-color: #976543;
 }
 
 .contact img {

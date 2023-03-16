@@ -7,7 +7,7 @@
   width: 80vw;
   margin: 20px auto;
   padding: 0 10px;
-  border: 5px solid #b6a396;
+  border: 3px solid #b6a396;
   border-radius: 20px;
 }
 
@@ -39,8 +39,9 @@ h1 {
 .QA ul li:nth-child(3) {
   /* padding: 10px; */
   margin: 0 20px;
-  border-top: 1px solid #b6a396;
+  border-top: 1px solid rgba(182, 163, 150, 0);
   color: #1faacc;
+  transition: 1s;
 }
 .triangle {
   border-color: #0c5663 transparent transparent transparent;
@@ -64,4 +65,5 @@ h1 {
 .autoHeight {
   max-height: 50px;
   padding: 20px 0;
+  border-top: 1px solid rgba(182, 163, 150, 1) !important;
 }
