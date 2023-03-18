@@ -7,7 +7,7 @@ $(function () {
   let bigImgBG = document.getElementById("bigImgBG");
 
   setTimeout(() => {
-    $(window).scroll(0, 0);
+    window.scrollTo(0, 0);
   }, 100);
   setTimeout(() => {
     // document.addEventListener("scroll", function (e) {
@@ -58,9 +58,9 @@ $(function () {
   for (let i = 0; i <= 3; i++)
     setTimeout(() => {
       if (i % 2 == 1) {
-        $(".titleItem")[i].style.transform = "rotate(7deg)";
+        $(".titleItem")[i].style.transform = "scale(1)"; //rotate(7deg)";
       } else {
-        $(".titleItem")[i].style.transform = "rotate(-7deg)";
+        $(".titleItem")[i].style.transform = "scale(1)"; //rotate(-7deg)";
       }
     }, 3000 + 500 * i);
 

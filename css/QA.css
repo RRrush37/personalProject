@@ -27,7 +27,7 @@ h1 {
   height: 0;
   float: right;
   cursor: pointer;
-  transition: 0.5s;
+  transition: top 0.5s, transform 0.5s 0.2s;
   margin-top: 10px;
 }
 
