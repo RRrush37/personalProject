@@ -1,4 +1,7 @@
 $(function () {
-  $(".nav").load("../nav.html");
-  $(".footer").load("../footer.html");
+  $(".nav").load("../personalProject/nav.html");
+  $(".footer").load("../personalProject/footer.html");
+  $(".footer").load("../personalProject/footer.html");
+  $(".footer").load("../personalProject/footer.html");
+  $(".footer").load("../personalProject/footer.html");
 });
