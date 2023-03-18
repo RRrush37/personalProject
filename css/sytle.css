@@ -27,7 +27,7 @@ body {
   background-color: #b6a396;
   z-index: 100;
   transition: height 1.5s;
-  box-shadow: 0 2px 2px #999;
+  box-shadow: 0 0 2px #999;
 }
 
 .nav-center {
@@ -72,11 +72,11 @@ body {
 .bottomLine {
   width: 0;
   height: 0;
-  top: -1vh;
+  top: -3px;
   position: relative;
   transition: width 0.5s;
-  border-bottom: 3px solid #0c5663;
-  border-bottom: 3px solid #895d4f;
+  /* border-bottom: 3px solid #0c5663; */
+  border-bottom: 3px solid white;
   /* background-color: #fff; */
 }
 

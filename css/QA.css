@@ -1,6 +1,7 @@
 .QA {
   min-height: 80vh;
   margin-top: 6vh;
+  margin-bottom: 50px;
 }
 
 .QA ul {
@@ -9,6 +10,7 @@
   padding: 0 10px;
   border: 3px solid #b6a396;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 h1 {

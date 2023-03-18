@@ -1,3 +1,7 @@
+.rent {
+  margin-top: 5vh;
+}
+
 .rentMenu {
   display: flex;
   flex-direction: column;
@@ -38,6 +42,7 @@
   flex-basis: 0;
   flex-grow: 1;
   margin: 20px 0 20px 100px;
+  border-radius: 10px;
   background-color: #fff;
   line-height: 1.5;
 }
@@ -53,10 +58,13 @@ subtitle {
 
 .rentList li img {
   width: 220px;
+  border-radius: 10px 0 0 10px;
 }
+
 .rentList li:last-child {
   margin-bottom: 100px;
 }
+
 .rentList li p {
   flex-grow: 1;
   margin: 0 30px;

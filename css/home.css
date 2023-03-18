@@ -124,7 +124,8 @@
 .list {
   width: 60%;
   display: flex;
-/*   margin-top: 50px; */
+  /*   margin-top: 50px; */
+  margin: 0 auto 50px;
 }
 
 .item {
@@ -136,15 +137,15 @@
   font-weight: bold;
   color: #0c5663;
   /* font-style: italic; */
-  text-shadow: 7px 5px 0px #c0d2d6;
+  /* text-shadow: 7px 5px 0px #c0d2d6; */
   font-size: 7vw;
 }
 
 .contentItem,
 .photoItem {
-  color: white;
-  text-shadow: 7px 5px 0px #0c5663;
-  -webkit-text-stroke: 1px black;
+  color: #0c5663;
+  /* text-shadow: 7px 5px 0px #0c5663; */
+  /* -webkit-text-stroke: 1px black; */
 }
 
 .titleList li:nth-child(odd) {
@@ -225,9 +226,9 @@
 /*-----------------Marquee----------------- */
 .content {
   margin-top: 10vh;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   padding: 50px 0;
-  background-color: #c0d2d6;
+  background-color: #e3ebed;
 }
 .contentList {
   display: flex;
@@ -342,10 +343,15 @@
 }
 
 /*-------------photo-------------*/
+.photoArea {
+  padding: 100px 0;
+  background-color: #f4ece6;
+}
 
 .photoDiv {
-  width: 100%;
+  width: 70%;
   display: flex;
+  margin: 0 auto;
 }
 
 .photo {
