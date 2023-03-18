@@ -1,9 +1,9 @@
 body {
   background: repeating-conic-gradient(
     from 0deg at 64% -4%,
-    #7cafb7 0 25deg,
+    #a8ccd2 0 25deg,
     #e1d0c4 33deg 51deg,
-    #7cafb7 56deg 25deg
+    #a8ccd2 56deg 25deg
   );
 }
 
@@ -17,8 +17,9 @@ body {
 }
 
 h1 {
-  font-size: max(3vw, 6vh);
+  font-size: max(4vw, 8vh);
   font-weight: bold;
+  letter-spacing: 1vw;
   color: #0c5663;
 }
 
@@ -81,6 +82,7 @@ input:last-child {
   width: 40vw;
   left: 3vw;
   position: relative;
+  border-radius: 10px;
 }
 
 .flexItem {

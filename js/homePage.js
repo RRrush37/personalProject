@@ -27,23 +27,21 @@ $(function () {
     document.addEventListener("scroll", function (e) {
       if (
         window.scrollY >=
-        $(".contentList")[0].getBoundingClientRect().top + 10
+        $(".contentList")[0].getBoundingClientRect().top - 300
       ) {
         $(".contentItem").css("transform", "scale(1)");
       } else if (
-        window.scrollY <
-        $(".contentList")[0].getBoundingClientRect().top - 100
+        window.scrollY < $(".contentList")[0].getBoundingClientRect().top
       ) {
         $(".contentItem").css("transform", "scale(0)");
       }
       if (
         window.scrollY >=
-        $(".photoList")[0].getBoundingClientRect().top + 10
+        $(".photoList")[0].getBoundingClientRect().top - 300
       ) {
         $(".photoItem").css("transform", "scale(1)");
       } else if (
-        window.scrollY <
-        $(".photoList")[0].getBoundingClientRect().top - 100
+        window.scrollY < $(".photoList")[0].getBoundingClientRect().top
       ) {
         $(".photoItem").css("transform", "scale(0)");
       }
@@ -62,7 +60,7 @@ $(function () {
       } else {
         $(".titleItem")[i].style.transform = "scale(1)"; //rotate(-7deg)";
       }
-    }, 3000 + 500 * i);
+    }, 500 + 500 * i);
 
   //跑馬燈效果
   setInterval(() => {

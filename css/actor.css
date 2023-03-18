@@ -44,24 +44,19 @@ footer {
   width: 14vw;
 }
 .actorBTN:nth-child(5n + 1) {
-  background-color: #fff7c3;
   background-color: #fffcd3;
 }
 .actorBTN:nth-child(5n + 2) {
-  background-color: #e9ffc3;
-  background-color: #ecffd3;
+  background-color: #f5e5b8;
 }
 .actorBTN:nth-child(5n + 3) {
-  background-color: #cbffc3;
-  background-color: #d6ffd3;
+  background-color: #e7c896;
 }
 .actorBTN:nth-child(5n + 4) {
-  background-color: #c3fff7;
-  background-color: #d3ffe6;
+  background-color: #ddb184;
 }
 .actorBTN:nth-child(5n) {
-  background-color: #c3e9ff;
-  background-color: #d3fffc;
+  background-color: #e2aa72;
 }
 
 .actorBTN span {
@@ -100,6 +95,8 @@ footer {
   z-index: 10;
   opacity: 0;
   transition: 1s;
+  color: #fff;
+  font-size: 20px;
 }
 
 .backToBTNAppear {
@@ -128,6 +125,7 @@ footer {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+  transition: 1.3s;
 }
 
 .actorShow img {
@@ -142,10 +140,16 @@ footer {
 .GinoDiv img,
 .bigDiv img {
   left: 160%;
+  transition: 1.2s;
 }
 
 .actorShow iframe {
   transition: 1.5s;
+  position: absolute;
+  z-index: 10;
+  left: -100%;
+  top: 20vh;
+  /* margin-top: 20vh; */
 }
 
 .okDiv p,
@@ -154,6 +158,7 @@ footer {
   transition: 1.5s 0.3s;
   font-family: Verdana;
   font-size: 40px;
+  top: 30px;
 }
 
 .okInfo,
@@ -162,26 +167,35 @@ footer {
   position: relative;
   left: -100%;
   color: white;
+  transition: 1.4s;
 }
 
 .actorText {
   position: absolute;
   width: 100vw;
   margin: 0 auto;
+  transition: 1s;
 }
 
 .manSlideIn img {
-  left: 60%;
+  left: 66%;
 }
 
 .manSlideIn .GinoImg {
-  left: 5%;
+  left: 0%;
+  bottom: 0;
+  top: 55px;
 }
 
-.manSlideIn frame {
-  left: 0;
+.manSlideIn iframe {
+  left: 50vw;
+  top: 20vh;
+  right: 0;
+  transform: translateX(-50%);
+  /* margin: 20vh auto; */
 }
 
 .manSlideIn p {
   left: 0;
+  top: 30px;
 }
