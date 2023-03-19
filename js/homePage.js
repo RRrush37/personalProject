@@ -25,24 +25,14 @@ $(function () {
     // }
     // });
     document.addEventListener("scroll", function (e) {
-      if (
-        window.scrollY >=
-        $(".contentList")[0].getBoundingClientRect().top - 300
-      ) {
+      if ($(".contentList")[0].getBoundingClientRect().top < 500) {
         $(".contentItem").css("transform", "scale(1)");
-      } else if (
-        window.scrollY < $(".contentList")[0].getBoundingClientRect().top
-      ) {
+      } else if ($(".contentList")[0].getBoundingClientRect().top > 550) {
         $(".contentItem").css("transform", "scale(0)");
       }
-      if (
-        window.scrollY >=
-        $(".photoList")[0].getBoundingClientRect().top - 300
-      ) {
+      if ($(".photoList")[0].getBoundingClientRect().top < 500) {
         $(".photoItem").css("transform", "scale(1)");
-      } else if (
-        window.scrollY < $(".photoList")[0].getBoundingClientRect().top
-      ) {
+      } else if ($(".photoList")[0].getBoundingClientRect().top > 700) {
         $(".photoItem").css("transform", "scale(0)");
       }
     });
