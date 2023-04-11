@@ -45,6 +45,7 @@
   border-radius: 10px;
   background-color: #fff;
   line-height: 1.5;
+  position: relative;
 }
 
 subtitle {
